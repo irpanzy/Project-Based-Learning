@@ -53,6 +53,12 @@ cd social-media-addiction-prediction
 pip install numpy pandas scikit-learn
 ```
 
+Atau menggunakan requirements.txt:
+
+```bash
+pip install -r requirements.txt
+```
+
 ### 3. Menjalankan Program
 
 ```bash
