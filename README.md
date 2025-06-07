@@ -2,11 +2,11 @@
 
 ## 📋 Deskripsi Proyek
 
-Proyek ini bertujuan untuk memprediksi tingkat kecanduan media sosial pada mahasiswa menggunakan algoritma Gaussian Naive Bayes yang diimplementasikan dari scratch. Dataset yang digunakan adalah "Students Social Media Addiction" yang berisi informasi tentang pola penggunaan media sosial dan dampaknya terhadap mahasiswa.
+Proyek ini bertujuan untuk memprediksi tingkat kecanduan media sosial pada mahasiswa menggunakan algoritma Gaussian Naive Bayes yang diimplementasikan dari scratch. Dataset yang digunakan adalah **Students Social Media Addiction** yang berisi informasi tentang pola penggunaan media sosial dan dampaknya terhadap mahasiswa.
 
 ## 🎯 Tujuan
 
-- Mengklasifikasikan mahasiswa apakah termasuk kategori "kecanduan" atau "tidak kecanduan" media sosial
+- Mengklasifikasikan mahasiswa apakah termasuk kategori **kecanduan** atau **tidak kecanduan** media sosial
 - Mengimplementasikan algoritma Naive Bayes tanpa menggunakan library yang langsung menyediakan algoritma tersebut
 - Menganalisis faktor-faktor yang mempengaruhi kecanduan media sosial
 
@@ -40,17 +40,35 @@ Proyek ini bertujuan untuk memprediksi tingkat kecanduan media sosial pada mahas
 
 ## 🔧 Instalasi dan Penggunaan
 
-### Prerequisites
+### 1. Clone Repository
+
+```
+git clone https://github.com/irpanzy/social-media-addiction-prediction.git
+cd social-media-addiction-prediction
+```
+
+### 2. Install Dependencies
 
 ```bash
 pip install numpy pandas scikit-learn
 ```
 
-### Menjalankan Program
+### 3. Menjalankan Program
 
 ```bash
 cd source_code
 python main.py
+```
+
+### 4. Output yang Diharapkan
+
+Program akan menampilkan:
+
+```
+Akurasi: XX.XX %
+Confusion Matrix:
+ [[XX XX]
+ [XX XX]]
 ```
 
 ## 📝 Penjelasan Setiap Modul
@@ -247,4 +265,4 @@ Proyek ini dibuat untuk tujuan pembelajaran dan penelitian.
 
 ---
 
-__Note:__ Implementasi ini dibuat dari scratch sesuai dengan requirements tugas, tanpa menggunakan library yang langsung menyediakan algoritma Naive Bayes.
+**Note:** Implementasi ini dibuat dari scratch sesuai dengan requirements tugas, tanpa menggunakan library yang langsung menyediakan algoritma Naive Bayes.
