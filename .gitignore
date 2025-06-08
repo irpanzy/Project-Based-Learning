@@ -22,10 +22,6 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Dataset - jangan push data besar
-data/*.csv
-*.csv
-
 # Virtual environment
 venv/
 env/
