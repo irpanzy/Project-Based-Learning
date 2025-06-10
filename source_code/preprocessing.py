@@ -6,8 +6,10 @@ from sklearn.model_selection import train_test_split
 def load_and_preprocess(csv_path):
     df = pd.read_csv(csv_path)
 
+    # Menghapus Student_ID karena tidak relevan untuk klasifikasi
     df.drop(columns=["Student_ID"], inplace=True)
 
+    # Mengubah Addicted_Score menjadi klasifikasi biner
     df["Addicted"] = df["Addicted_Score"].apply(lambda x: 1 if x >= 6 else 0)
     df.drop(columns=["Addicted_Score"], inplace=True)
 
